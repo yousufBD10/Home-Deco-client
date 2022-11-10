@@ -39,6 +39,10 @@ const AuthProvider = ({ children }) => {
 }
 
 
+  const sinInGoogle = (provider) => {
+    setLoading(true);
+    return signInWithPopup(auth, provider);
+  };
 
   const logOut = () => {
     setLoading(true);
