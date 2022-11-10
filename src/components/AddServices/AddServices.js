@@ -28,26 +28,7 @@ const AddServices = () => {
 
         // post api
          
-        fetch('https://assignment-11-server-bice.vercel.app/services',{
-            method:"POST",
-            headers:{
-                'content-type': "application/json"
-            },
-            body: JSON.stringify(services)
-        })
-        .then(res => res.json())
-        .then(data=>{
-            if(data.acknowledged){
-                form.reset()
-                navigate('/services')
-                Swal.fire(
-                  'Services added successful'
-               
-                )
-            }
-            console.log(data)
-        })
-        .catch(err=>console.error(err));
+      
 
 
       }
