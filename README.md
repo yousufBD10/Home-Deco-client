@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# My website feature
+**Services provider website** \
+**website name : Home Deco** \
+**website Address : https://homedeco-247ee.web.app/** 
+**Server API : https://assignment-11-server-bice.vercel.app/services** 
+**Server API : https://assignment-11-server-bice.vercel.app/blog** 
+### My Services 
+* Windows & Doors
+* Flooring
+* Air Conditioning and Cooling
+* Kitchen Remodeling
+* Landscape, Yard & Garden
+* Bathroom Remodeling
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
