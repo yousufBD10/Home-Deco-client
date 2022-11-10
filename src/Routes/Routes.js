@@ -36,12 +36,7 @@ children:[
     loader: ()=> fetch('https://assignment-11-server-bice.vercel.app/services')
    
 },
-{
-    path:'/services/:id',
-    element: <ServicesPageDetails></ServicesPageDetails>,
-    loader: ({params})=> fetch(`https://assignment-11-server-bice.vercel.app/services/${params.id}`)
-   
-},
+
 {
     path:'/services/:id',
     element: <Reviews></Reviews>,
