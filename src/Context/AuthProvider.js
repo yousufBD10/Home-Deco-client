@@ -49,10 +49,7 @@ const AuthProvider = ({ children }) => {
     return signOut(auth);
   };
 
-  const GithubSignIn = (provider) => {
-    setLoading(true);
-    return signInWithPopup(auth, provider);
-  };
+  
 
   useEffect(() => {
     const unsubscribes = onAuthStateChanged(auth, (currentUser) => {
