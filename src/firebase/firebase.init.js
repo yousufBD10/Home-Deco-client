@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain:process.env.REACT_APP_authDomain,
-  projectId:process.env.REACT_APP_projectId,
-  storageBucket:process.env.REACT_APP_storageBucket,
-  messagingSenderId:process.env.REACT_APP_messagingSenderId,
-  appId:process.env.REACT_APP_appId,
+  apiKey: "AIzaSyDBGGEBJ0tTBHqzwEg-OJPnwnwWvBYMolc",
+  authDomain: "homedeco-247ee.firebaseapp.com",
+  projectId: "homedeco-247ee",
+  storageBucket: "homedeco-247ee.appspot.com",
+  messagingSenderId: "1088450836633",
+  appId: "1:1088450836633:web:84f9c679a77e7d0121a008"
 };
 
 // Initialize Firebase
