@@ -14,24 +14,24 @@ const Home = () => {
   return (
     <div className="mt-9">
       <div className="lg:flex ">
-        <div className="w-3/5 flex items-center">
+        <div className="lg:w-3/5 flex items-center">
           <div>
-            <h1 className="lg:text-7xl  font-bold">
+            <h1 className="lg:text-7xl ml-3  text-5xl  font-bold">
               We are <br /> provide of <br /> best services{" "}
             </h1>
-            <p className="font-bold mt-5 text-xl">
+            <p className="font-bold mt-5 text-xl ml-4">
               We offer builders a comprehensive range of energy-efficiency
               services, including pre-construction plan reviews, various
               inspection services, .
             </p>
-            <p className="font-bold mt-5 text-xl">
+            <p className="font-bold mt-5 lg:text-xl ml-4">
               Are you in need of a top-notch home builder? . Here, you can find
               all kinds of services that will help you build your dream home!
             </p>
           </div>
         </div>
 
-        <div className="carousel w-1/2">
+        <div className="carousel lg:w-1/2">
           <div id="slide1" className="carousel-item relative w-full">
             <img src={img1} alt="#" className="w-full" />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -69,7 +69,7 @@ const Home = () => {
       </div>
 
     
-     <div className="grid grid-cols-3 mt-9 gap-7">
+     <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-9 gap-7">
         {
           services.map(service =><ServicesCard key={service._id } service={service}></ServicesCard>)
         }

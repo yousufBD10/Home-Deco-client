@@ -22,10 +22,10 @@ const Header = () => {
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/services'>Services</Link></li>
-             {
-              user?.uid && <> <li><Link to=''>My Reviews</Link></li>
-              <li><Link to='addservices'>Add Services</Link></li></>
-             }
+              {
+              user?.uid && <> <li><Link to='/myreview'>My Reviews</Link></li>
+              <li><Link to='/addservices'>Add Services</Link></li></>
+             } 
             </ul>
           </div>
           <Link to='/' className=" normal-case text-xl"><img className='w-20' src={logo} alt='#'></img></Link>
